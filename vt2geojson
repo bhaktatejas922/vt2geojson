@@ -32,5 +32,5 @@ vt2geojson(args, function (err, geojson) {
         process.exit(-1);
     }
 
-    console.log(JSON.stringify(geojson, null, 2));
+    console.log(JSON.stringify(geojson));
 });
